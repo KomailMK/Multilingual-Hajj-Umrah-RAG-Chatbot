@@ -41,8 +41,8 @@ export default function Home() {
     setInput("");
     setIsLoading(true);
 
-    try {
-      const res = await axios.post("https://ahmadkomail77-hajj-backend.hf.space/chat", {
+    try { 
+      const res = await axios.post("enter your backend provider's link( e.g: your huggingface space's url", { // i.e: https://yourHFusername-you-space-name.hf.space/chat
         message: userMsg.text,
         language: language, 
       });
