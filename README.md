@@ -27,7 +27,7 @@ The project is split into three main components:
 The chatbot's knowledge is entirely dependent on the documents processed into the Vector Database. Here is how to replace the existing data with your own:
 
 1. **Add your PDFs:** Place your custom PDF documents (e.g., `hr_policies.pdf`, `product_manual.pdf`) in the root directory alongside the Jupyter notebook.
-2. **Open the Notebook:** Open `hajj_rag_chatbot_optimized.ipynb` in Jupyter Notebook, VS Code, or Google Colab.
+2. **Open the Notebook:** Open `rag_optimized.ipynb` in Jupyter Notebook, VS Code, or Google Colab.
 3. **Update the Merge List:** Locate the Python cell containing the `pdfs_to_merge` list and replace it with your file names.
    ```python
    pdfs_to_merge = ["hr_policies.pdf", "product_manual.pdf"] # Add your PDFs here
