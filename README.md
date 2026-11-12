@@ -22,7 +22,7 @@ The project is split into three main components:
 
 ---
 
-## 1. Customize with Your Own Data
+## 1. Customize with Your Own Data.
 
 The chatbot's knowledge is entirely dependent on the documents processed into the Vector Database. Here is how to replace the existing data with your own:
 
